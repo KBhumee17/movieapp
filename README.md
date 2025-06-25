@@ -14,7 +14,7 @@
   <h3 align="center">🎬 Movie App</h3>
 
   <div align="center">
-    Learn to build this app with step-by-step tutorials and get hands-on experience with full-stack development using modern tools.
+    A responsive React.js movie search app using Vite and TMDB API for discovering trending and popular movies.
   </div>
 </div>
 
