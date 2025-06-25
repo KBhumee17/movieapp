@@ -1,7 +1,6 @@
 <div align="center">
   <br />
   <a href="https://github.com/KBhumee17/movieapp" target="_blank">
-    <img src="public/readme/hero.png" alt="Movie App Banner" />
   </a>
   <br />
 
