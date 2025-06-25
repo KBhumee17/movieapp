@@ -8,6 +8,7 @@ import { getTrendingMovies, updateSearchCount } from './appwrite.js';
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+console.log("API_KEY:", API_KEY);
 
 const API_OPTIONS = {
     method: "GET",
@@ -117,16 +118,19 @@ const App = () => {
 
                      {isLoading ? (
                          <Spinner />
-                         ) : errorMessage ? (
-                             <p className="text-red-500">{errorMessage}</p>
-                     ) : (
+                     ) : errorMessage ? (
+                         <p className="text-red-500">{errorMessage}</p>
+                     ) : movieList?.length > 0 ? (
                          <ul>
                              {movieList.map((movie) => (
                                  <MovieCard key={movie.id} movie={movie} />
                              ))}
                          </ul>
+                     ) : (
+                         <p className="text-white">No movies found</p>
                      )}
                  </section>
+
              </div>
          </main>
     )
