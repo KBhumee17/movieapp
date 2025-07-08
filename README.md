@@ -17,7 +17,7 @@
     
   <br/>
 ### 🎬 Live Demo - Movie App  
-👉 [Try Movie App Live](https://movieapp-dun-sigma.vercel.app/)
+👉 (https://movieapp-dun-sigma.vercel.app/)
   </div>
 </div>
 
