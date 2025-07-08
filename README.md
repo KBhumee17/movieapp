@@ -14,6 +14,10 @@
 
   <div align="center">
     A responsive React.js movie search app using Vite and TMDB API for discovering trending and popular movies.
+    
+  <br/>
+### 🎬 Live Demo - Movie App  
+👉 [Try Movie App Live](https://movieapp-dun-sigma.vercel.app/)
   </div>
 </div>
 
